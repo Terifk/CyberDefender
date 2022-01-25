@@ -103,6 +103,7 @@ Enable docker service
 
 The following screenshot displays the result successfully configuring the ELK instance with all machines, Network Security Groups, and Load Balancer. 
 
+![image](https://user-images.githubusercontent.com/95733311/151053447-ee28f4e0-e6e4-456e-b76f-a219ff37d01f.png)
 
 
 
