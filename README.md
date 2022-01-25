@@ -61,7 +61,11 @@ The configuration details of each machine may be found below:
 |Local Host-Workstation|Access Control|73.15.233.190/|Linux Ubuntu (64 bit)|  | 
 
 
-
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 
 
