@@ -108,6 +108,23 @@ ELK VM can be accessed by Local Host-Workstation.  Its IP address: 73.15.233.190
 
 A summary of the access policies in place can be found in the table below.
 
+|      				  				Name 			     |  				  				Publicly 				Accessible 			 |       				  				Allowed IP 				Addresses 			      |  				  				 			 |
+|:----------------:|:-----------------------:|:----------------------------------:|------|
+|  				 Jump 				Box 			      |  				  				Yes 			                 |  				 Local 				Host Public IP on SSH 22 			  |      |
+|  				 Web-1 			         |  				  				No 			                  |  				 10.0.0.4 				on SSH 22 			              |      |
+|  				 Web-2 			         |  				  				No 			                  |  				 10.0.0.4 				on SSH 22 			              |      |
+|  				 ELK 				Server 			    |  				  				Yes 			                 |  				 Local 				Host Public IP TCP 5601 			   |      |
+|  				 Load 				balancer 			 |  				  				No 			                  |  				 Local 				Host Public IP on HTTP 80 			 |      |
+
+
+
+
+
+
+
+
+
+
 
 Name
 Publicly Accessible
