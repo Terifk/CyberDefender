@@ -158,7 +158,7 @@ Elasticsearch: replace localhost with local IP for ELK Server
 
 
 
-| **LINUX COMMANDS                                  | USED TO   **                                |
+|**LINUX COMMANDS                                  |USED TO   **                                |
 |-------------------------------------------------|-------------------------------------------|
 | sudo apt-get update                             | Update Packages                           |
 | sudo apt install docker.io                      | Install Docker Application                |
