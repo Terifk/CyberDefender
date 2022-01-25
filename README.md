@@ -112,20 +112,12 @@ The following screenshot displays the result successfully configuring the ELK in
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-Name
-Function
-Public/Private
- IP Address
+|  				  				Name 			 |         				  				Function 			       |  				  				Public/Private  				  				 IP Address 			 |
+|:--------:|:-------------------------:|:---------------------------------:|
+|  				 ELK 			   |  				 Monitoring 				Web Servers 			 |  				 20.109.173.55/10.1.0.4 				 				 			       |
+|  				 Web-1 			 |  				 Web 				Server for DVWA 			    |  				 13.82.220.149/10.0.0.7 			         |
+|  				 Web-2 			 |  				 Web 				Server for DVWA 			    |  				 52.188.210.98/10.0.0.8 			         |
 
-ELK
-Monitoring Web Servers
-20.109.173.55/10.1.0.4 
-Web-1
-Web Server for DVWA
-13.82.220.149/10.0.0.7
-Web-2
-Web Server for DVWA
-52.188.210.98/10.0.0.8
 
 The following Beats have been installed on the ELK server:  Filebeat and Metricbeat
 
