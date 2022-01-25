@@ -151,7 +151,8 @@ Kibana: replace localhost with local IP for ELK Server
 Elasticsearch: replace localhost with local IP for ELK Server
              curl -XGET elasticsearch_ip_or_hostname:9200/
              
-![image](https://user-images.githubusercontent.com/95733311/151056360-dfc68191-b5c9-4f6e-8ae5-ba41ad6a1122.png)
+![image](https://user-images.githubusercontent.com/95733311/151057610-50c7e919-8b73-4259-a699-b6dc6b6f5e8d.png)
+
 
 
 
