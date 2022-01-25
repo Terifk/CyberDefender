@@ -51,7 +51,7 @@ Integrating an ELK server with Beats allows users to easily monitor the vulnerab
 
 The configuration details of each machine may be found below:
 
-|Name|Function|Public/Private IP Address|Operating System|
+
 |---|---|---|---|---|
 |Jump-Box-Provisioner|Gateway|20.120.87.181/10.0.0.4|Linux Ubuntu (64 bit)|  |
 |Web-1|Web Server for DVWA|13.82.220.149/10.0.0.7|Linux Ubuntu (64 bit|  |
@@ -61,7 +61,7 @@ The configuration details of each machine may be found below:
 |Local Host-Workstation|Access Control|73.15.233.190/|Linux Ubuntu (64 bit)|  | 
 
 
-|   |   |   |   |   |
+|Name|Function|Public/Private IP Address|Operating System|
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |
