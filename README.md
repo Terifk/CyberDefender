@@ -154,22 +154,3 @@ Elasticsearch: replace localhost with local IP for ELK Server
 ![image](https://user-images.githubusercontent.com/95733311/151057610-50c7e919-8b73-4259-a699-b6dc6b6f5e8d.png)
 
 ![image](https://user-images.githubusercontent.com/95733311/151057846-8e2293a8-3e5b-4c55-80f9-bdd3f73221ab.png)
-
-
-
-
-
-LINUX COMMANDS                                                            USED TO
-
-sudo apt-get update                                                           Update Packages
-sudo apt install docker.io                                                    Install Docker Application
-sudo service docker start                                                   Start Docker Application
-systemctl status docker                                                      Give Status Docker Application
-sudo docker pull cyberxsecurity/ansible                             Pull-Download Docker File
-sudo docker run -ti cyberxsecurity/ansible bash                 Run Docker Container
-sudo docker start <Docker Container>                               Start Docker Container
-sudo docker container list -a                                                List All Docker Containers
-sudo docker ps -a                                                                List Process Status All Docker Containers
-sudo docker attach <Docker Container>                             View or Control Docker Container
-ssh-keygen                                                                          Generate Key-Client/Server Authentication
-ansible -m ping all                                                               Check Connected-Able Run Containers
