@@ -153,9 +153,7 @@ Elasticsearch: replace localhost with local IP for ELK Server
              
 ![image](https://user-images.githubusercontent.com/95733311/151057610-50c7e919-8b73-4259-a699-b6dc6b6f5e8d.png)
 
-
-
-
+![image](https://user-images.githubusercontent.com/95733311/151057846-8e2293a8-3e5b-4c55-80f9-bdd3f73221ab.png)
 
 
 
