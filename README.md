@@ -174,7 +174,7 @@ Elasticsearch: replace localhost with local IP for ELK Server
          
 
 
-
+Click here for LinkedIn CV:
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="allan-anthony-91235924" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/allan-anthony-91235924?trk=profile-badge">Allan Anthony</a></div>
               
 
