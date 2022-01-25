@@ -50,6 +50,7 @@ Integrating an ELK server with Beats allows users to easily monitor the vulnerab
 
 
 The configuration details of each machine may be found below:
+
 ||           				  				Name 			         |         				  				Function 			       |  				  				Public/Private  				  				 IP Address 			 |    				  				Operating System 			   |
 |:-------------------------:|:-------------------------:|:---------------------------------:|:------------------------:|
 |  				 Jump-Box-Provisioner 			   |  				 Gateway 			                |  				 20.120.87.181/10.0.0.4 			         |  				 Linux 				Ubuntu (64 bit) 			 |
