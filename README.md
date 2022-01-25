@@ -27,12 +27,6 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
-
-
-
-
-
-
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
@@ -66,36 +60,7 @@ The configuration details of each machine may be found below:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Access Policies
 
@@ -108,42 +73,13 @@ ELK VM can be accessed by Local Host-Workstation.  Its IP address: 73.15.233.190
 
 A summary of the access policies in place can be found in the table below.
 
-|      				  				Name 			     |  				  				Publicly 				Accessible 			 |       				  				Allowed IP 				Addresses 			      |  				  				 			
-|:----------------:|:-----------------------:|:----------------------------------:|------|
-|  				 Jump 				Box 			      |  				  				Yes 			                 |  				 Local 				Host Public IP on SSH 22 			  |   
-|  				 Web-1 			         |  				  				No 			                  |  				 10.0.0.4 				on SSH 22 			              |      |
-|  				 Web-2 			         |  				  				No 			                  |  				 10.0.0.4 				on SSH 22 			              |      |
-|  				 ELK 				Server 			    |  				  				Yes 			                 |  				 Local 				Host Public IP TCP 5601 			   |      
-
-
-
-
-
-
-
-
-
-
-
-Name
-Publicly Accessible
-Allowed IP Addresses
-Jump Box
-Yes
-Local Host Public IP on SSH 22
-Web-1
-No
-10.0.0.4 on SSH 22
-Web-2
-No
-10.0.0.4 on SSH 22
-ELK Server
-Yes
-Local Host Public IP TCP 5601
-Load balancer
-No
-Local Host Public IP on HTTP 80
-
+|      				  				Name 			     |  				  				Publicly 				Accessible 			 |       				  				Allowed IP 				Addresses 			      |
+|:----------------:|:-----------------------:|:----------------------------------:|
+|  				 Jump 				Box 			      |  				  				Yes 			                 |  				 Local 				Host Public IP on SSH 22 			  |
+|  				 Web-1 			         |  				  				No 			                  |  				 10.0.0.4 				on SSH 22 			              |
+|  				 Web-2 			         |  				  				No 			                  |  				 10.0.0.4 				on SSH 22 			              |
+|  				 ELK 				Server 			    |  				  				Yes 			                 |  				 Local 				Host Public IP TCP 5601 			   |
+|  				 Load 				balancer 			 |  				  				No 			                  |  				 Local 				Host Public IP on HTTP 80 			 |
 
 
 ### Elk Configuration
@@ -164,11 +100,6 @@ Increase virtual memory
 Download and launch docker web container: cyberxsecurity/dvwa
 
 Enable docker service
-
-
-
-
-
 
 The following screenshot displays the result successfully configuring the ELK instance with all machines, Network Security Groups, and Load Balancer. 
 
