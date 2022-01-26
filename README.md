@@ -70,7 +70,8 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: Local Host-Workstation 73.15.233.190.
 
 Machines within the network can only be accessed by ELK VM or Jump-Box-Provisioner.
-ELK VM can be accessed by Local Host-Workstation.  Its IP address: 73.15.233.190
+ELK VM can be accessed by Local Host-Workstation.
+Its IP address: 73.15.233.190
 
 A summary of the access policies in place can be found in the table below.
 
