@@ -140,8 +140,8 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 Assuming you have such a control node provisioned:
 
-* Bullet list
-  SSH into the control node and follow the steps below:
+
+  > SSH into the control node and follow the steps below:
 
   Copy roles files to /etc/ansible/roles. 
 
