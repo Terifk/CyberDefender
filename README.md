@@ -89,17 +89,17 @@ The main advantage of automating configuration with Ansible is it easily facilit
  
 The playbook implements the following tasks:
 
-Install docker.io
+ - Install docker.io
 
-Install python3-pip
+ - Install python3-pip
 
-Install Python Docker Module
+ - Install Python Docker Module
 
-Increase virtual memory
+ - Increase virtual memory
 
-Download and launch docker web container: cyberxsecurity/dvwa
+ - Download and launch docker web container: cyberxsecurity/dvwa
 
-Enable docker service
+ - Enable docker service
 
 The following screenshot displays the result successfully configuring the ELK instance with all machines, Network Security Groups, and Load Balancer. 
 
