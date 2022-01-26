@@ -140,28 +140,27 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 Assuming you have such a control node provisioned:
 
+ - SSH into the control node and follow the steps below:
 
-  > SSH into the control node and follow the steps below:
+ - Copy roles files to /etc/ansible/roles. 
 
-  Copy roles files to /etc/ansible/roles. 
+ - Update hosts file to include webserver IP's and ELKServer IP 
 
-  Update hosts file to include webserver IP's and ELKServer IP 
+ - Check the installation works as intended.
 
-  Check the installation works as intended.
+ - Run the playbook navigating to:
 
-  Run the playbook navigating to:
+ - HTTP://<ELKServer_Public_IP>:5601
 
-  HTTP://<ELKServer_Public_IP>:5601
+ - Copy roles folder (linked above) and files to /etc/ansible/roles 
 
-  Copy roles folder (linked above) and files to /etc/ansible/roles 
+ - Update /etc/ansible/hosts file to include the webservers IP's and ELKServer IP 
 
-  Update /etc/ansible/hosts file to include the webservers IP's and ELKServer IP 
+ - Update configuration files with ELKServer IP 
 
-  Update configuration files with ELKServer IP 
+ - Kibana: replace localhost with local IP for ELK Server 
 
-  Kibana: replace localhost with local IP for ELK Server 
-
-  Elasticsearch: replace localhost with local IP for ELK Server
+ - Elasticsearch: replace localhost with local IP for ELK Server
 
              curl -XGET elasticsearch_ip_or_hostname:9200/
              
