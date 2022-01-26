@@ -140,11 +140,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 Assuming you have such a control node provisioned:
 
-  *SSH into the control node and follow the steps below:
+* Bullet list
+  SSH into the control node and follow the steps below:
 
-  *Copy roles files to /etc/ansible/roles. 
+  Copy roles files to /etc/ansible/roles. 
 
-  *Update hosts file to include webserver IP's and ELKServer IP 
+  Update hosts file to include webserver IP's and ELKServer IP 
 
   Check the installation works as intended.
 
@@ -169,7 +170,7 @@ Assuming you have such a control node provisioned:
 ![image](https://user-images.githubusercontent.com/95733311/151057846-8e2293a8-3e5b-4c55-80f9-bdd3f73221ab.png)
 
 
-|**LINUX COMMANDS                                  |USED TO   **                                |
+|**LINUX COMMANDS                                  |USED TO**                                |
 |-------------------------------------------------|-------------------------------------------|
 | sudo apt-get update                             | Update Packages                           |
 | sudo apt install docker.io                      | Install Docker Application                |
@@ -184,9 +185,7 @@ Assuming you have such a control node provisioned:
 | ssh-keygen                                      | Generate Key-Client/Server Authentication |
 | ansible -m ping all                             | Check Connected-Able Run Containers       |
 
-         
-
-
+ 
 
 **Click my name to see LinkedIn CV:**
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="allan-anthony-91235924" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/allan-anthony-91235924?trk=profile-badge">Allan Anthony</a></div>
