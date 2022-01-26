@@ -139,16 +139,27 @@ Metricbeat: records metrics and statistics from the operating system and from se
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
 SSH into the control node and follow the steps below:
+
 Copy roles files to /etc/ansible/roles. 
+
 Update hosts file to include webserver IP's and ELKServer IP 
+
 Check the installation works as intended.
+
 Run the playbook navigating to:
+
 HTTP://<ELKServer_Public_IP>:5601
+
 Copy roles folder (linked above) and files to /etc/ansible/roles 
+
 Update /etc/ansible/hosts file to include the webservers IP's and ELKServer IP 
+
 Update configuration files with ELKServer IP 
+
 Kibana: replace localhost with local IP for ELK Server 
+
 Elasticsearch: replace localhost with local IP for ELK Server
+
              curl -XGET elasticsearch_ip_or_hostname:9200/
              
 ![image](https://user-images.githubusercontent.com/95733311/151057610-50c7e919-8b73-4259-a699-b6dc6b6f5e8d.png)
