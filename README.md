@@ -32,17 +32,18 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-
 Using load balancing ensures that the application will be highly available and reliable, in addition to restricting traffic to the network.  Load Balancers provide security functions such as to help prevent DoS and DDoS attacks and overload of servers by, also, using a "health probe" to detect faulty servers and redistributes to those functioning properly.
 
 
 Using a Jump Box has an advantage of increasing security. Before connecting to other servers it provides the only gateway for access ("fanning in") to network infrastructure reducing size of the potential attack surface.
-The Jump Box is a 'hardened," secure server to be used only for system administrator's tasks thus minimizing threat penetrations into the walls of a private network to withstand malicious attacks or threats. Creates a "bridge" between users and private network tightening access to resources, instances, and gateways.  
+
+The Jump Box is a 'hardened," secure server to be used only for system administrator's tasks thus minimizing threat penetrations into the walls of a private network to withstand malicious attacks or threats.
+
+Creates a "bridge" between users and private network tightening access to resources, instances, and gateways.  
+
 Allows users to access these instances in private subnets via ssh or rdp. Provides a dedicated ssh access point for aggregated audit log of all the ssh connections. 
 
-
 Integrating an ELK server with Beats allows users to easily monitor the vulnerable VMs for changes to the data metrics such as CPU usuage and system logs.  Filebeat watches for log files and Metricbeat records metrics and statistics from the operating system. 
-
 
 The configuration details of each machine may be found below:
 
