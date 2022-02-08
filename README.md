@@ -54,7 +54,7 @@ The configuration details of each machine may be found below:
 |  				 Web-2 			                  |  				 Web 				Server for DVWA 			    |  				 52.188.210.98/10.0.0.8 			         |  				 Linux 				Ubuntu (64 bit) 			 |
 |  				 ELK 			                    |  				 Monitoring 				Web Servers 			 |  				 20.109.173.55/10.1.0.4 				 				 			       |  				 Linux 				Ubuntu (64 bit) 			 |
 |  				 Load 				Balancer 			          |  				 Balancing 				Server Load 			  |  				      				         /Static 				Internal 			 |  				 Linux 				Ubuntu (64 bit) 			 |
-|  				 Local 				Host-Workstation 			 |  				 Access 				Control 			         |  				 73.15.233.190/ 			                 |  				 Linux 				Ubuntu (64 bit) 			 |
+|  				 Local 				Host-Workstation 			 |  				 Access 				Control 			         |  				 73.15.233.190 			                 |  				 Linux 				Ubuntu (64 bit) 			 |
 
 
 
