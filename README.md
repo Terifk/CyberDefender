@@ -37,7 +37,7 @@ Using load balancing ensures that the application will be highly available and r
 
 Using a Jump Box has an advantage of increasing security. Before connecting to other servers it provides the only gateway for access ("fanning in") to network infrastructure reducing size of the potential attack surface.
 
-The Jump Box is a 'hardened," secure server to be used only for system administrator's tasks thus minimizing threat penetrations into the walls of a private network to withstand malicious attacks or threats.
+The Jump Box is a "hardened," secure server to be used only for system administrator's tasks thus minimizing threat penetrations into the walls of a private network to withstand malicious attacks or threats.
 
 Creates a "bridge" between users and private network tightening access to resources, instances, and gateways.  
 
